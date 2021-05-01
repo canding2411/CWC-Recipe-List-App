@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct CWC_Recipe_List_AppApp: App {
+struct CWC_Recipe_List_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView()
         }
     }
 }

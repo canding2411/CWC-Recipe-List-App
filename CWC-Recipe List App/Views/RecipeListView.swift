@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RecipeListView: View {
     var body: some View {
         Text("Hi GitHub, it's nice working with you!")
             .padding()
@@ -16,6 +16,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RecipeListView()
     }
 }
