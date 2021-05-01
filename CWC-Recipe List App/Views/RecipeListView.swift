@@ -8,9 +8,33 @@
 import SwiftUI
 
 struct RecipeListView: View {
+    
+    @ObservedObject var model = RecipeModel()
+    
     var body: some View {
-        Text("Hi GitHub, it's nice working with you!")
-            .padding()
+
+        NavigationView {
+            
+            List(model.recipes) { recipe in
+                
+                NavigationLink(
+                    destination: RecipeDetailView(recipe: recipe),
+                    label: {
+                        HStack {
+                            
+                            Image(recipe.image)
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .clipped()
+                                .cornerRadius(6.0)
+                            Text(recipe.name)
+                        }
+                    })
+                
+            }.navigationBarTitle("All Recipes")
+        }
+        
     }
 }
 

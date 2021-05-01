@@ -9,12 +9,12 @@ import Foundation
 
 class RecipeModel: ObservableObject {
     
-    @Published var recipeModel = [Recipe]()
+    @Published var recipes = [Recipe]()
     
     init() {
         
         // DataService does not need to be initialized as the function is defined as static in the DataService class
-        recipeModel.self = DataService.getLocalDataFromJSONFile()
+        recipes.self = DataService.getLocalDataFromJSONFile()
         
     }
     
