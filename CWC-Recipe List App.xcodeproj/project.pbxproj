@@ -16,6 +16,7 @@
 		82155C49263D582700CD4F44 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82155C48263D582700CD4F44 /* DataService.swift */; };
 		82155C4B263D692300CD4F44 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82155C4A263D692300CD4F44 /* RecipeDetailView.swift */; };
 		82155C4D263F2E3100CD4F44 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 82155C4C263F2E3100CD4F44 /* recipes.json */; };
+		82155C6A2641A40F00CD4F44 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82155C692641A40F00CD4F44 /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		82155C48263D582700CD4F44 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		82155C4A263D692300CD4F44 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		82155C4C263F2E3100CD4F44 /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		82155C692641A40F00CD4F44 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		82155C3D263D504100CD4F44 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				82155C692641A40F00CD4F44 /* RecipeTabView.swift */,
 				82155C30263D4C6500CD4F44 /* RecipeListView.swift */,
 				82155C4A263D692300CD4F44 /* RecipeDetailView.swift */,
 			);
@@ -196,6 +199,7 @@
 			files = (
 				82155C45263D550D00CD4F44 /* Recipe.swift in Sources */,
 				82155C4B263D692300CD4F44 /* RecipeDetailView.swift in Sources */,
+				82155C6A2641A40F00CD4F44 /* RecipeTabView.swift in Sources */,
 				82155C47263D551A00CD4F44 /* RecipeModel.swift in Sources */,
 				82155C31263D4C6500CD4F44 /* RecipeListView.swift in Sources */,
 				82155C2F263D4C6500CD4F44 /* CWC_Recipe_List_App.swift in Sources */,
