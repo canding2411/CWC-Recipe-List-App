@@ -47,7 +47,7 @@ struct RecipeFeaturedView: View {
                             }
                             .frame(width: geo.size.width - 40, height: geo.size.height - 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(15)
-                            .shadow(color: Color(.sRGB, red: 0, green: 0, blue: 0, opacity: 0.6), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5.0, y: 5.0)
+                            .shadow(color: Color(.sRGB, red: Double.random(in: 0...1), green: Double.random(in: 0...1), blue: 0, opacity: 0.6), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5.0, y: 5.0)
                             
                         }
                         
