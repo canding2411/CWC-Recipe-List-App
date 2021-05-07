@@ -18,4 +18,10 @@ class RecipeModel: ObservableObject {
         
     }
     
+    // Add static function to calculte the ingredients amount based on selected serving size
+    static func calculatePortion(ingredient:Ingredient, recipeServings:Int, targetServings:Int) -> String {
+        
+        return String(targetServings)
+    }
+    
 }
